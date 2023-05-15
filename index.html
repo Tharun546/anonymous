@@ -25,6 +25,12 @@
                     <textarea placeholder="send me anonymous messages..." onkeyup="toggleButtonVisibility()"
                         name="question" autocomplete="off" maxlength="300" id="question"></textarea>
                 </div>
+                <style>
+                    /* Change placeholder color for textarea */
+                    textarea::placeholder {
+                      color: #333333;
+                    }
+                  </style>
                 <input class="deviceId" type="hidden" name="deviceId" id="deviceId">
             </div>
             <div class="anonymous-tooltip">🔒 A there is no login, you are anonymous and no personal details recorded
